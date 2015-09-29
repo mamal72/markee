@@ -1,4 +1,4 @@
-# electron-markdowner
+# Markee
 
 > A simple electron based markdown viewer/editor
 
