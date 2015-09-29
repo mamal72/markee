@@ -1,6 +1,6 @@
 # electron-markdowner
 
-> My flawless app
+> A simple electron based markdown viewer/editor
 
 
 ## Dev
@@ -26,4 +26,4 @@ Builds the app for OS X, Linux, and Windows, using [electron-packager](https://g
 
 ## License
 
-MIT © [mamal72](http://jahani.me)
+MIT © [mamal72](http://github.com/mamal72)
