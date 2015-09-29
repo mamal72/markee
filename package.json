@@ -1,0 +1,47 @@
+{
+  "name": "markee",
+  "productName": "Markee",
+  "version": "0.0.1",
+  "description": "A simple markdown viewer/editor",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mamal72/markee.git"
+  },
+  "author": {
+    "name": "Mohamad Jahani",
+    "email": "m4m4lj@gmail.com",
+    "url": "github.com/mamal72"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "electronVersion": "0.33.0",
+  "scripts": {
+    "test": "xo",
+    "start": "electron .",
+    "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=$npm_package_electronVersion"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "electron-app"
+  ],
+  "dependencies": {
+    "electron-debug": "^0.1.1",
+    "marked": "^0.3.5"
+  },
+  "devDependencies": {
+    "electron-packager": "^5.0.0",
+    "electron-prebuilt": "^0.33.0",
+    "xo": "^0.9.0"
+  },
+  "xo": {
+    "esnext": true,
+    "envs": [
+      "node",
+      "browser"
+    ]
+  }
+}
